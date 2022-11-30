@@ -9,12 +9,12 @@ import { HeroService } from '../services/hero.service';
 export class HomeComponent {
 
   constructor(
-    private heroSercice: HeroService,
+    private heroService: HeroService,
 
   ) {}
 
   ngOnInit(): void {
-    this.heroSercice.sayHello();
+    this.heroService.sayHello();
     console.log("Hello Angular")
   }
 
