@@ -6,4 +6,20 @@
 
 <button class="bg-blue-500 hover:bu-blue-700 text-white font-bold py-2 px-4 rounded">Click Me</button>
 
+<h1 [class.redheading= "red"]>
+    {{title}}
+</h1>
+
+<h2 class="redheading">
+    baka oniichan
+</h2>
+
+<p [ngClass]="{'redheading yellowback': red}">
+    This is with yellow background and red text
+</p>
+
+<img [src]="imgurl" alt="" width="200px" id="firstimg">
+
+<img src="{{imgurl}}" alt="" width="100px" id="secondimg">
+
 <button>Test</button>
